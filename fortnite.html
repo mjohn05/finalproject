@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Discover information about popular video games and watch gameplay from interesting clips.">
+<meta name="keywords" content="GameClips,Fortnite,Call of Duty,GTA 5,Gears of War 4,Battlefield 1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GameClips | Fortnite</title>
+	<link rel="stylesheet" href="index.css">
+	<style type="text/css">
+	.fortnite {
+		float: right;
+		height: 200px;
+		width: 150px;
+	}
+
+	#specs {
+		border: 5px solid black;
+		margin: auto;
+		width: 75%;
+		border-collapse: collapse;
+	}
+
+	table#specs td {
+		border: 2px solid black;
+		padding: 20px;
+	}
+
+	.title {
+		background-color: #1a8cff;
+		color: white;
+	}
+
+	.hardware {
+		border: 2px solid black;
+		background-color: crimson;
+		color: white;
+		padding: 30px;
+	}
+
+	.type {
+		background-color: crimson;
+		color: white;
+	}
+
+	.element {
+		background-color: cyan;
+		color: black;
+	}
+
+	.border1 {
+		background-color: #00e6b8;
+		color: black;
+		border: 2px solid black;
+	}
+	</style>
+	<script src="js/jquery-3.5.1.min.js" charset="utf-8"></script>
+	<script src="js/mouseevent.js" charset="utf-8"></script>
+	<script type="text/javascript">
+
+	</script>
+</head>
+
+<body>
+
+<header>
+<a href="index.html"><img class="banner" src="assets/banner.jpg" alt="banner"></a>
+</header>
+
+<nav class="navbar navbar-default">
+<ul class="navlist">
+	<li class="navlist2"><a href="index.html">HOME</a></li>
+  <li class="navlist2"><a href="fortnite.html">FORTNITE</a></li>
+  <li class="navlist2"><a href="cod.html">CALL OF DUTY</a></li>
+  <li class="navlist2"><a href="gta.html">GTA 5</a></li>
+  <li class="navlist2"><a href="gow.html">GEARS OF WAR 4</a></li>
+  <li class="navlist2"><a href="battlefield.html">BATTLEFIELD 1</a></li>
+</ul>
+</nav>
+<main>
+	<figure>
+	<a href="https://www.epicgames.com/fortnite/en-US/home">
+	<img class="fortnite" src="assets/fortnitecover.jpg" alt="fortnite cover"></a>
+	</figure>
+
+<h1>Fortnite Battle Royale</h1>
+<p><b>Fortnite Battle Royale</b> is a free to play battle royale game developed and published by Epic Games. It was released as an early access title for Microsoft Windows, macOS, PlayStation 4, Xbox One in September 2017, and for iOS in April 2018. Fortnite Battle Royale features up to 100 players, alone or in squads of up to four players, attempting to be the last player alive by eliminating other players or evading them, while staying within a constantly shrinking safe zone. Players must scavenge for weapons and armor to gain the upper hand on their opponents. The game adds a building element; players can break down most objects in the game world to gain resources that they can use to build fortifications as part of their strategy. The game features limited cross-platform play between PlayStation 4, Xbox One, computer versions, and mobile versions.</p>
+
+<br><br>
+<hr>
+
+<h2>Specs</h2>
+<table id="specs">
+	<tr><th class="title" colspan="3">Hardware Specs(PC)</th></tr>
+	<tr>
+		<th class="hardware" rowspan="2">Hardware</th>
+			<tr>
+				<th class="border1">Minimum Specifications</th>
+				<th class="border1">Recommended Specifications</th>
+			</tr>
+	</tr>
+
+	<tr>
+		<td class="type">Processor</td>
+		<td class="element">Core i3 2.4 Ghz</td>
+		<td class="element">Core i5 2.8 Ghz</td>
+	</tr>
+
+	<tr>
+		<td class="type">Memory</td>
+		<td class="element">4 GB RAM</td>
+		<td class="element">8 GB RAM</td>
+	</tr>
+
+	<tr>
+		<td class="type">Graphics</td>
+		<td class="element">Intel HD 4000</td>
+		<td class="element">NVIDIA: GTX 660</td>
+	</tr>
+</table>
+<br>
+<button id="hide">HIDE SPECS</button>
+<button id="show">SHOW SPECS</button>
+<br><br>
+<hr>
+
+<h2>Clips</h2>
+<iframe width="560" height="280" src="https://www.youtube.com/embed/1zOHOSjT57o"
+frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="280" src="https://www.youtube.com/embed/--pBbu1xfls"
+frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br><br>
+<hr>
+
+<form class="player" action="https://www.epicgames.com/fortnite/en-US/home">
+	Do you play Fortnite? <br><br>
+	<input type="radio" name="play" value="yes" tabindex="1"> YES <br>
+	<input type="radio" name="play" value="no" tabindex="1"> NO <br>
+	<br>
+	<button type="submit" value="Submit">SUBMIT</button>
+</form>
+<br>
+</main>
+<footer>
+&copy;GameClips 2021
+</footer>
+</body>
+</html>
